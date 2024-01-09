@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    // Seção de abas, programação das abas     
+    // Seção de abas, ativação por clique     
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function(button) {
             const targetTab = button.target.dataset.tabButton;
