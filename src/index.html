@@ -3,10 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lost Boys</title>
-    <link rel="stylesheet" href="dist/css/main.css">
+    <title>O Vapor Willie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="../dist/images/mmLogo.png" alt="Mickey Mouse">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#">Filmes</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#">Series</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="../dist/images/mmCircle.png" alt="O vapor Willie">
+            </div>
+            <div class="hero__content__text">
+                <h3 class="title--big">
+                    O Vapor Willie
+                </h3>
+                <p class="text--big">
+                    Mickey Mouse, pilotando um barco a vapor, encanta sua passageira, Minnie, fazendo instrumentos musicais com o zoológico do convés.
+                </p>
+                <p class="text--small">
+                    Dirigido por Ub Iwerks
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="plot">
+        <div class="plot__content">
+            <h3 class="title--small">
+                Sumário
+            </h3>
+            <p class="text--big">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, atque nulla. Labore incidunt animi dignissimos, nostrum quia laboriosam ab sequi rerum ut rem saepe in deserunt facilis consequatur accusamus esse?
+            </p>
+        </div>
+    </section>
+    <section class="castcrew">
+        <nav class="castcrew__tabs">
+            <button data-tab-button="elenco" class="castcrew__tabs__button castcrew__tabs__button--is-active">
+                Elenco
+            </button>
+            <button data-tab-button="equipe" class="castcrew__tabs__button">
+                Equipe
+            </button>
+            <button data-tab-button="detalhes" class="castcrew__tabs__button">
+                Detalhes
+            </button>
+        </nav>
+        <ul data-tab-id="elenco" class="castcrew__list castcrew__list--is-active">
+            <li class="castcrew__list__item">
+                <img src="../dist/images/cast/waltDisney.jpg" alt="Walt Disney">
+            </li>
+        </ul>
+        <ul data-tab-id="equipe" class="castcrew__list">
+            <li class="castcrew__list__item">
+                <img src="../dist/images/cast/lesClark.jpg" alt="Les Clark">
+            </li>
+            <li class="castcrew__list__item">
+                <img src="../dist/images/cast/ubIwerks.jpeg" alt="Ub Iwerks">
+            </li>
+        </ul>
+        <ul data-tab-id="detalhes" class="castcrew__list">
+            <li class="castcrew__list__item">
+                Títulos alternativos: El Botero Willie, Barco de vapor Willie, じょうきせんウィリー, Willie z parowca, ספינת הקיטור של וילי, Höyrylaiva Ville, Mickey Mouse: El botero Willie, Корабът Уили, Musse Pigg som ångbåtskalle, Микки Маус: Пароходик Уилли, 汽船威利, O Vapor Willie, ספינת הקיטור וילי, Parowiec Willie, 증기선 윌리, Το Ατμόπλοιο Γουίλι, 蒸気船ウィリー, Vapur Willie, القارب البخاري
+            </li>
+        </ul>
+    </section>
+    <section class="stream">
+        <h2 class="title--big">Onde assistir</h2>
+        <ul class="stream__list">
+            <li class="stream__list__item">
+                <img src="../dist/images/logos/amazonPrimeLogo.png" alt="Amazon Prime">
+                <strong class="title--small">Amazon Prime</strong>
+                <p class="text--big">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt omnis tempora.
+                </p>
+                <button class="button">Assistir</button>
+            </li>
+            <li class="stream__list__item">
+                <img src="../dist/images/logos/disneyPlusLogo.png" alt="Disney+">
+                <strong class="title--small">Disney+</strong>
+                <p class="text--big">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt omnis tempora.
+                </p>
+                <button class="button">Assistir</button>
+            </li>
+            <li class="stream__list__item">
+                <img src="../dist/images/logos/huluLogo.jpg" alt="Hulu">
+                <strong class="title--small">Hulu</strong>
+                <p class="text--big">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt omnis tempora.
+                </p>
+                <button class="button">Assistir</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *Disponibilidade pode variar.
+        </p>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="../dist/images/mmLogo.png" alt="Mickey Mouse">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                <img src="../dist/images/logos/globe.svg" alt="Globo do mundo">
+                <select>
+                    <option>English</option>
+                    <option selected>Português</option>
+                </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Termos e Condições de Uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Política de privacidade</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Anúncios personalizados</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Ajuda</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Sobre</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            ® 2024 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Conteúdo sujeito a disponibilidade.
+        </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
