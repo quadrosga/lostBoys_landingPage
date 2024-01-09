@@ -17,10 +17,13 @@
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a class="button button--secondary" href="#">Filmes</a>
+                    <a class="button button--secondary" href="#plot">Sumário</a>
                 </li>
                 <li class="header__links__item">
-                    <a class="button button--secondary" href="#">Series</a>
+                    <a class="button button--secondary" href="#about">Sobre</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#stream">Stream</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section class="plot">
+    <section class="plot" id="plot">
         <div class="plot__content">
             <h3 class="title--small">
                 Sumário
@@ -53,7 +56,7 @@
             </p>
         </div>
     </section>
-    <section class="castcrew">
+    <section class="castcrew" id="about">
         <nav class="castcrew__tabs">
             <button data-tab-button="elenco" class="castcrew__tabs__button castcrew__tabs__button--is-active">
                 Elenco
@@ -84,11 +87,11 @@
             </li>
         </ul>
     </section>
-    <section class="stream">
+    <section class="stream" id="stream">
         <h2 class="title--big">Onde assistir</h2>
         <ul class="stream__list">
             <li class="stream__list__item">
-                <img src="../dist/images/logos/amazonPrimeLogo.png" alt="Amazon Prime">
+                <img src="../dist/images/logos/primeLogo.jpg" alt="Amazon Prime">
                 <strong class="title--small">Amazon Prime</strong>
                 <p class="text--big">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt omnis tempora.
@@ -122,7 +125,7 @@
         <ul class="footer__links">
             <li class="footer__links__item">
                 <div class="language-selector">
-                <img src="../dist/images/logos/globe.svg" alt="Globo do mundo">
+                <img src="../dist/images/logos/globeLight.svg" alt="Globo do mundo">
                 <select>
                     <option>English</option>
                     <option selected>Português</option>
@@ -157,6 +160,6 @@
         </div>
     </footer>
 
-    <script src="./dist/js/main.js"></script>
+    <script src="../dist/js/main.js"></script>
 </body>
 </html>
