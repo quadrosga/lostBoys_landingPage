@@ -39,6 +39,10 @@
                 display: block;
                 margin-top: 24px;
             }
+
+            @media (max-width: 768px) {
+                padding-top: 40px;
+            }
         }
     }
 

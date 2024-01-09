@@ -2,16 +2,21 @@
 
 .hero {
     padding: 5.6vw;
-    min-height: 80vh;
+    // min-height: 60vh;
     text-align: center;
     justify-content:space-between;
 
     @media (max-width: 768px) {
-        // background-image: url(../images/mmBanner.jpg);
+        background-image: url(../images/mmBanner.jpg);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-top: -55px;
+        // margin-top: 40px;
+        
+        .hero__content {
+            visibility: hidden;
+            display: none;
+        }
     }
 
     .button {
